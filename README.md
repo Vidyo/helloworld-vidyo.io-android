@@ -12,7 +12,7 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-android.git
 
 ## Build and Run Application
 1. In Android Studio, use Import project to open and import the Android project for the app: VidyoIODemo
-2. Open the source file VidyoIODemo/app/src/main/java/com/example/pfuternik/vidyoiodemo/MainActivity.java and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://vidyo.io for more info on generating tokens.
+2. Open the source file VidyoIODemo/app/src/main/java/com/example/pfuternik/vidyoiodemo/MainActivity.java and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://developer.vidyo.io for more info on generating tokens or watch an instructional video [here](https://support.vidyo.io/hc/en-us/articles/115004915647-Generate-Vidyo-io-Tokens).
 3. Connect an Android device to your computer via USB.
 4. In Android Studio, run the app. Android Studio builds, loads, and runs the app on an Android device.
 
