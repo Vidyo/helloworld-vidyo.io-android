@@ -1,7 +1,7 @@
 # helloworld-vidyo.io-android
 Simple video chat application using Vidyo.io on Android
 
-> For an instructional video detailing how to build this app, take a look at this [Blog Post](https://vidyo.io/how-to/build-mobile-video-chat-app-android-minutes).
+> For an instructional video detailing how to build this app, take a look at this [Blog Post](https://vidyo.io/how-to/build-mobile-video-chat-app-android-minutes). Take note that there have been some minor changes to the API since the video was recorded, most of which are related to the case of the methods, enums, etc.
 
 ## Clone Repository
 git clone https://github.com/Vidyo/helloworld-vidyo.io-android.git
@@ -9,6 +9,9 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-android.git
 ## Acquire .jar and .so Files
 1. Download the latest Vidyo.io Android SDK package: https://static.vidyo.io/latest/package/VidyoClient-AndroidSDK.zip
 2. Copy all files located at VidyoClient-AndroidSDK/lib/android to the VidyoIODemo/app/libs directory.
+
+> Note: VidyoClient SDK version 4.1.18.8 or greater is required.
+> The version of the SDK that you are acquiring is highlighted in the blue box here: https://developer.vidyo.io/documentation/latest
 
 ## Build and Run Application
 1. In Android Studio, use Import project to open and import the Android project for the app: VidyoIODemo
